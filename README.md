@@ -9,7 +9,7 @@ It allows users to **sign up**, **log in**, **manage tasks**, and **log out** se
 ### 🔹 Signup
 
 Users can create a new account by providing their name, email, and password.
-[![Signup]([https://ibb.co/Kz2jFD0Z](https://ibb.co/Kz2jFD0Z))
+![Signup]([https://i.ibb.co/your-image-link.png](https://ibb.co/Kz2jFD0Z))
 
 
 
