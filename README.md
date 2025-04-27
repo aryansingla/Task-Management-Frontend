@@ -9,7 +9,7 @@ It allows users to **sign up**, **log in**, **manage tasks**, and **log out** se
 ### 🔹 Signup
 
 Users can create a new account by providing their name, email, and password.
-[![Signup](https://media-hosting.imagekit.io/fa6e5460385346ba/Screenshot%202025-04-27%20181154.png)](https://media-hosting.imagekit.io/fa6e5460385346ba/Screenshot%202025-04-27%20181154.png)
+[![Signup]([https://media-hosting.imagekit.io/fa6e5460385346ba/Screenshot%202025-04-27%20181154.png](https://drive.google.com/file/d/1fy_I7kk7eAHiibuPFjrDynFp2wO2NypP/view?usp=drive_link))]([https://media-hosting.imagekit.io/fa6e5460385346ba/Screenshot%202025-04-27%20181154.png](https://drive.google.com/file/d/1fy_I7kk7eAHiibuPFjrDynFp2wO2NypP/view?usp=drive_link))
 
 
 
