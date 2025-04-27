@@ -1,12 +1,63 @@
-# React + Vite
+# Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and clean **Task Management App** built with **React**, **Vite**, **Material UI**, and **Axios**.
 
-Currently, two official plugins are available:
+It allows users to **sign up**, **log in**, **manage tasks**, and **log out** securely.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### 🔹 Signup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users can create a new account by providing their name, email, and password.
+
+  
+### 🔹 Login
+
+Existing users can log in with their registered email and password.
+
+  
+### 🔹 Dashboard
+
+After login, users are redirected to a dashboard where all their tasks are displayed in a structured table.
+
+  
+### 🔹 Logout Button
+
+A logout button is provided to securely end the session and redirect the user back to the login page.
+
+  
+### 🔹 Create New Task
+
+Users can create a new task by filling a simple form with task details like title and description.
+
+  
+### 🔹 Edit Task
+
+Users can edit an existing task by clicking the edit button and updating the task information.
+
+  
+### 🔹 Delete Task
+
+Users can delete any task by clicking the delete button, removing it permanently from their task list.
+
+---
+
+# 📸 Screenshots
+
+*(You can insert screenshots under each feature after this.)*
+
+---
+
+# 🚀 Tech Stack
+
+- React
+- Vite
+- Material UI
+
+---
+
+# 📦 How to Run
+
+```bash
+npm install
+npm run dev
