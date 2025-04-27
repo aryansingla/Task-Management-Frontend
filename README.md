@@ -9,7 +9,8 @@ It allows users to **sign up**, **log in**, **manage tasks**, and **log out** se
 ### 🔹 Signup
 
 Users can create a new account by providing their name, email, and password.
-[![Signup]([https://i.postimg.cc/wvPzhTgY/Screenshot-524.png](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Screenshot%202025-04-27%20181154.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-04-26T13%3A06%3A55.985Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2Ffa6e5460385346ba%2FScreenshot%25202025-04-27%2520181154.png%3FExpires%3D1840367216%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DIs68~TJuyGLC3nCTrd1UmGtPb9kY1NY7Zh-AHUNXEN05B2AmacrZQTz2d1KzcWsQozhrSVTHsxqQYPtpRHpDeA~-m-oR-JicGOED8LtfB5AdZ8anExegNuNJOxYPiuHD~KUTKAkFMYUMVI0uKEcZlNzZsh8SjY3DS1oGMcckj6GuVcNHwNaltarXKVjRqFRDHZ9d9hXqXZJtD289M8BLVnPkIMI31UbOMGB2XDf-WNM6SMsxDKaEVDLofgm3kS6ddIofCHG-H7U2L~29l6DLRTKhaQRLX4I0qDZJStnkrC6z9Un9YLVwGYSyNOZ15Mx~Ynk-dAU6c86mIGZAkD1KQA__%22%7D))]
+![Signup](https://media-hosting.imagekit.io/fa6e5460385346ba/Screenshot%25202025-04-27%2520181154.png?Expires=1840367216&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Is68~TJuyGLC3nCTrd1UmGtPb9kY1NY7Zh-AHUNXEN05B2AmacrZQTz2d1KzcWsQozhrSVTHsxqQYPtpRHpDeA~-m-oR-JicGOED8LtfB5AdZ8anExegNuNJOxYPiuHD~KUTKAkFMYUMVI0uKEcZlNzZsh8SjY3DS1oGMcckj6GuVcNHwNaltarXKVjRqFRDHZ9d9hXqXZJtD289M8BLVnPkIMI31UbOMGB2XDf-WNM6SMsxDKaEVDLofgm3kS6ddIofCHG-H7U2L~29l6DLRTKhaQRLX4I0qDZJStnkrC6z9Un9YLVwGYSyNOZ15Mx~Ynk-dAU6c86mIGZAkD1KQA__%22%7D)
+
 
   
 ### 🔹 Login
