@@ -19,7 +19,6 @@ const LoginPage = () => {
     const handleSubmit = () => {
         const newErrors = {};
 
-        // Validation
         if (!email) newErrors.email = 'Email is required';
         if (!password) newErrors.password = 'Password is required';
 

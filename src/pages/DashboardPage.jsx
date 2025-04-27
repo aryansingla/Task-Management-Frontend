@@ -101,7 +101,7 @@ const DashboardPage = () => {
     };
 
     const handleUpdate = () => {
-        setLoadingUpdate(true); // Set loading state when starting the update API call
+        setLoadingUpdate(true);
 
         const updatedTask = {
             title: newTask.title,
@@ -134,7 +134,7 @@ const DashboardPage = () => {
                 console.error(error);
             })
             .finally(() => {
-                setLoadingUpdate(false); // Stop loading
+                setLoadingUpdate(false);
             });
     };
 
@@ -144,8 +144,7 @@ const DashboardPage = () => {
     };
 
     const handleCreateNewTask = () => {
-        setLoadingCreate(true); // Set loading state when starting the creation API call
-
+        setLoadingCreate(true);
         const taskData = {
             title: newTask.title,
             description: newTask.description,
@@ -174,7 +173,7 @@ const DashboardPage = () => {
                 console.error(error);
             })
             .finally(() => {
-                setLoadingCreate(false); // Stop loading
+                setLoadingCreate(false);
             });
     };
 
@@ -226,14 +225,14 @@ const DashboardPage = () => {
                 color="primary"
                 startIcon={<AddIcon />}
                 onClick={() => {
-                    setSelectedTask(null); // Clear any selected task
+                    setSelectedTask(null);
                     setNewTask({
                         title: '',
                         description: '',
                         dueDate: moment().format('YYYY-MM-DD'),
                         status: 'pending',
-                    }); // Reset newTask to default values
-                    setOpenDialog(true); // Open the dialog
+                    });
+                    setOpenDialog(true);
                 }}
                 sx={{ marginBottom: 2, marginTop: 2 }}
             >
@@ -274,16 +273,16 @@ const DashboardPage = () => {
                             variant="outlined"
                             sx={{
                                 marginBottom: 2,
-                                position: 'relative', // Required for positioning icons absolutely
+                                position: 'relative',
                                 transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                 '&:hover': {
-                                    transform: 'translateY(-5px)', // Moves card slightly upward
-                                    boxShadow: 3, // Adds a shadow on hover
+                                    transform: 'translateY(-5px)',
+                                    boxShadow: 3,
                                 },
                             }}
                         >
                             <CardContent>
-                                {/* Edit and Delete Icons at Top Right */}
+                               
                                 <Box
                                     sx={{
                                         position: 'absolute',
@@ -310,9 +309,9 @@ const DashboardPage = () => {
                                 <Box display="flex" alignItems="center" mt={1}>
                                     <Typography>Status: </Typography>
                                     <Chip
-                                        label={task.status.charAt(0).toUpperCase() + task.status.slice(1)} // Capitalizes first letter of status
-                                        color={task.status === 'completed' ? 'success' : 'primary'} // Conditional color for status
-                                        sx={{ marginLeft: 1 }} // Removes any gap between status text and chip
+                                        label={task.status.charAt(0).toUpperCase() + task.status.slice(1)}
+                                        color={task.status === 'completed' ? 'success' : 'primary'}
+                                        sx={{ marginLeft: 1 }}
                                     />
                                 </Box>
                             </CardContent>
@@ -321,7 +320,6 @@ const DashboardPage = () => {
                 </Box>
             )}
 
-            {/* Dialog to create or update tasks */}
             <Dialog open={openDialog} onClose={() => setOpenDialog(false)}>
                 <DialogTitle>{selectedTask ? 'Edit Task' : 'Create New Task'}</DialogTitle>
                 <DialogContent>
@@ -372,7 +370,7 @@ const DashboardPage = () => {
                         variant="contained"
                         onClick={selectedTask ? handleUpdate : handleCreateNewTask}
                         color="primary"
-                        disabled={loadingCreate || loadingUpdate} // Disable if either action is in progress
+                        disabled={loadingCreate || loadingUpdate} 
                         startIcon={loadingCreate || loadingUpdate ? <CircularProgress size={24} color="inherit" /> : null}
                     >
                         {selectedTask ? (loadingUpdate ? 'Updating...' : 'Update') : (loadingCreate ? 'Creating...' : 'Create')}
