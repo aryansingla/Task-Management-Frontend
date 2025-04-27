@@ -1,6 +1,6 @@
 # Task Management App
 
-This is a simple and clean **Task Management App** built with **React**, **Vite** and **Material UI**.
+This is a simple and clean **Task Management App** built with **React with Vite** and **Material UI**.
 
 It allows users to **sign up**, **log in**, **manage tasks**, and **log out** securely.
 
@@ -32,6 +32,7 @@ A logout button is provided to securely end the session and redirect the user ba
 ### 🔹 Create New Task
 
 Users can create a new task by filling a simple form with task details like title and description.
+By default Due Date is Current date and Status is Pending.
 ![Screenshot 2025-04-27 181031](https://github.com/user-attachments/assets/8db2862a-3fb8-4fb2-98f5-c0ed32e647cd)
 
   
@@ -57,8 +58,7 @@ If no tasks are availble then a image will be shown.
 
 # 🚀 Tech Stack
 
-- React
-- Vite
+- React with Vite
 - Material UI
 
 ---
